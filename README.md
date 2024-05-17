@@ -5,7 +5,7 @@
 ## Objective
 The **NLP - Sentiment Analysis and Text Summarization of Amazon Product Reviews** project is designed to analyze customer sentiment and generate summaries of customer reviews on Amazon products. This project primarily uses Natural Language Processing (NLP) techniques to provide insights into customer opinions and highlight product features that need improvement or is successful from text reviews. This project serves as my capstone project for Nashville Software School. 
 
-The following is an overall outline of the project: 
+The following image is an overall outline of the project: 
 
 ## Datasets 
 The Amazon Reviews Dataset is collected from the University of California's San Diego McAuley Lab (https://amazon-reviews-2023.github.io/main.html). The complete 2023 dataset is split into 34 categories. We will work with the Home and Kitchen category, which has 23.2 million users, 3.7 million items, and 67.4 million ratings. It consists of two JSON Lines files: one for user reviews and one for item metadata. 
@@ -44,7 +44,7 @@ The Amazon Reviews Dataset is collected from the University of California's San 
 - **Sentiment Analysis**: Classifies reviews as positive, negative, or neutral.
 - **Text Summarization**: Generates brief summaries from lengthy reviews with highlights on customer likes and dislikes for product improvement.
 - **Visualization**: Presents data insights and results through charts and graphs.
-- **Web Application**: User-friendly interface for users to parse through different product categories and brands and display NLP results.
+- **Web Application**: User-friendly interface for users to browse through different subcategories and brands and display NLP results.
 
 ## Sentiment Analysis 
 ## Text Summarization 
