@@ -6,7 +6,7 @@
 The **NLP - Sentiment Analysis and Text Summarization of Amazon Product Reviews** project is designed to analyze customer sentiment and generate summaries of customer reviews on Amazon products. This project primarily uses Natural Language Processing (NLP) techniques to provide insights into customer opinions and highlight product features that need improvement or is successful from text reviews. This project serves as my capstone project for Nashville Software School's Data Science Bootcamp. 
 
 The following image is an overall outline of the project: 
-![Project Outline](assets/outline.pdf)
+![Project Outline](assets/outline-1.png)
 
 ## Datasets 
 The Amazon Reviews Dataset is collected from the University of California's San Diego McAuley Lab (https://amazon-reviews-2023.github.io/main.html). The complete 2023 dataset is split into 34 categories. This project will be on the Sports and Outdoors category, which has 10.3 million users, 1.6 million items, and 19.6 million ratings. It consists of two JSON Lines files: one for user reviews and one for item metadata. 
