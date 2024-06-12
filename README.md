@@ -6,10 +6,10 @@
 The **NLP - Sentiment Analysis and Text Summarization of Amazon Product Reviews** project is designed to analyze customer sentiment and generate summaries of customer reviews on Amazon products. This project primarily uses Natural Language Processing (NLP) techniques to provide insights into customer opinions and highlight product features that need improvement or is successful from text reviews. This project serves as my capstone project for Nashville Software School's Data Science Bootcamp. 
 
 The following image is an overall outline of the project: 
-![Project Outline](assets/outline-1.png)
+![Project Outline](assets/outline.png)
 
 ## Datasets 
-The Amazon Reviews Dataset is collected from the University of California's San Diego McAuley Lab (https://amazon-reviews-2023.github.io/main.html). The complete 2023 dataset is split into 34 categories. This project will be on the Sports and Outdoors category, which has 10.3 million users, 1.6 million items, and 19.6 million ratings. It consists of two JSON Lines files: one for user reviews and one for item metadata. 
+The Amazon Reviews Dataset is collected from the University of California's San Diego McAuley Lab (https://amazon-reviews-2023.github.io/main.html). The complete 2023 dataset is split into 34 categories. This project will be working on a subset of the Sports and Outdoors category, which has 10.3 million users, 1.6 million items, and 19.6 million ratings. It consists of two JSON Lines files: one for user reviews and one for item metadata. 
 
 ### User Reviews 
 - rating: product rating (1 - 5)
@@ -48,8 +48,8 @@ Data fields retrieved from https://amazon-reviews-2023.github.io/main.html.
 - **Web Application**: User-friendly interface for users to browse through different brands and products and display NLP results.
 
 ## Sentiment Analysis 
+This project used unsupservised learning and supervised learning methods to analyze customer sentiment. With unsupervised learning, it used Bing Liu and VADER lexicons to analyze sentiment. After creating a test and train dataset, the following models were used to analyze the sentiment: Randomized Search Cross Validation, Logistic Regression, and Linear Support Vector Classification. 
 ## Text Summarization 
-## Visualization 
-## Web Application 
+Sumy and Sentence Transformers (SBERT) libraries were used to create extractive text summarization. Wordcluds were used to display the top 50 used bigrams. 
 
 
